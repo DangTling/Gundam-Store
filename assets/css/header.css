@@ -1,0 +1,289 @@
+
+
+/*------------------------------header----------------------*/
+
+#header{
+    width: 100%;
+    height: 120px;
+    background-color: rgb(255, 0, 0);
+}
+
+
+/*-----------------------------header-search------------------------*/
+
+#header-box{
+    width: 100%;
+    height: 60%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    
+}
+
+
+
+
+.search-box{
+    height: 100%;
+    width: 40%;
+    background-color: rgb(255, 255, 255);
+    
+    padding: 20px 20px 20px 10%;
+    
+    
+}
+
+
+.search-box input[type=text]{
+    
+    
+    font-family: sans-serif;
+    font-size: 15px;
+    box-sizing: border-box;
+    outline: none;
+    width: 260px;
+    height: 30px;
+    border-radius: 15px 15px 15px 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-width: 1px ;
+    border-style:solid ;
+    border-color: rgb(124, 124, 124);
+
+    
+}
+
+
+
+
+
+.logo{
+    height: 100%;
+    width: 20%;
+    min-width:300px;
+    background-color: rgb(255, 255, 255);
+}
+
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+.header-nav-bar{
+    height: 100%;
+    width: 40%;
+    background-color: rgb(255, 255, 255);
+    padding: 25px 20px 20px 15%;
+}
+
+
+.header-nav-bar ul{
+    list-style: none;
+    display: flex;
+    /* background-color: brown; */
+    
+}
+
+.header-nav-bar a{
+    text-decoration: none;
+    font-size: 20px;    
+    color:rgb(120, 120, 120);
+}
+
+.header-nav-bar a:hover {
+    color: rgb(65, 65, 65);
+}
+
+
+
+.heart{
+    /* background-color: azure; */
+    margin-right: 10px;
+    padding-top: 10px;
+}
+
+
+.user{
+    margin-right: 10px;
+    /* background-color: azure; */
+    padding: 0 10px 0 10px;
+    border-left-width:1px ;
+    border-left-style: solid;
+    border-left-color: rgb(120, 120, 120);
+
+    border-right-width:1px ;
+    border-right-style: solid;
+    border-right-color: rgb(120, 120, 120);
+
+}
+
+/* .bag{
+    
+} */
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------------header-nav-bar----------------------*/
+
+#menu{
+    width: 100%;
+    height: 40%;
+    background-color: rgb(197, 15, 15);
+    padding:15px 0 0 280px;
+    /* overflow: hidden; */
+    
+}
+
+#menu a{
+   /*  color: rgb(255, 255, 255); */
+    font-family: sans-serif;
+    text-decoration: none;
+}
+#menu .ct{
+    color: rgb(255, 255, 255);
+}
+
+
+#menu .ct:hover{
+    color:rgb(127, 127, 127);
+}
+
+
+.menu_guest {
+    width: 108px;
+    margin-right: 8px;
+}
+.btn-primary {
+    width: 100%;
+}
+
+#menu ul{
+    padding: 0px 70px;
+    /* float: left; */
+    width: 100%;
+    top: 80px;
+    left: 0;
+    position: absolute;
+    /* height: 100%; */
+    list-style: none;
+    display: flex;
+}
+
+
+.list-1 {
+    width: 17%;
+    text-align: center;
+    padding: auto;
+    margin-right: 16px;
+    /* background-color: antiquewhite; */
+    
+}
+
+.list-2 {
+    width: 17%;
+    text-align: center;
+    padding: auto;
+    margin-right: 16px;
+}
+
+.list-3 {
+    width: 17%;
+    text-align: center;
+    padding: auto;
+    margin-right: 16px;
+}
+
+.list-4 {
+    width: 17%;
+    text-align: center;
+    padding: auto;
+    margin-right: 16px;
+}
+
+.list-5 {
+    width: 17%;
+    text-align: center;
+    padding: auto;
+    margin-right: 16px;
+}
+
+.list-6 {
+    width: 17%;
+    text-align: center;
+    padding: auto;
+    margin-right: 16px;
+}
+
+
+
+.ct{
+    /* background-color: yellow; */
+    padding: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.subnav{
+    margin-top: 30px;
+    padding-top: 20px; 
+    width: 200px;
+    height: auto;
+    background-color: white;
+    /* display: none; */
+    position: absolute;
+    margin-top: 15px;
+    margin-right: 50px;
+    display: none;
+    border-color:rgb(157, 156, 156);
+    border-style: solid;
+    border-radius: 2px;
+    border-width: 1px;
+    box-shadow: 1px 1px 5px 1px rgb(157, 156, 156);
+}
+
+.subnav li{
+    display: inline-block;
+}
+
+.list-1:hover .subnav{
+    display: block;
+}
+
+.subnav p a{
+    color: rgb(92, 92, 92);
+    font-family: sans-serif;
+    font-size: 15px;
+    /* margin-bottom: 10px; */
+}
+
+.subnav p{
+    margin-left: 10px;
+    margin-bottom: 20px;
+    
+}
+
+.subnav p a:hover{
+    color:rgb(198, 163, 163);
+}

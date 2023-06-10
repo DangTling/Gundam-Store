@@ -1,0 +1,368 @@
+
+
+/*----------------------------container---------------------------------*/
+
+#container{
+    width: 80%;
+    /* height: 1300px; */
+    height: auto;
+    /* min-width: 1215px; */
+    background-color: rgb(255, 255, 255);
+    
+    margin-left:10% ;
+    margin-right: 10%;
+    margin-top: 28px;
+
+}
+
+h3{
+    height: 40px;
+    margin-bottom: 10px;
+
+    background-color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    
+    border-bottom-width: 2px;
+    border-bottom-color: rgb(189, 189, 189);
+    border-bottom-style:solid;
+    overflow: hidden;
+    
+}
+
+#container h3 p{
+    text-align: center;
+    display: inline-block;
+    background-color: white;
+    padding: 0.3em 0.7em 0.4em 0.7em;
+    font-size: 21px;
+    font-weight: 400;
+    border-width: 2px;
+    border-color: rgb(189, 189, 189);
+    border-style:solid;
+
+}
+
+/*---------------------------------container-1---------------------------*/
+
+
+
+
+
+
+#container-1{
+    width: 100%;
+    height: 800px;  
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+
+
+.row-1{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    margin-bottom: 28px;
+}
+
+
+
+
+.row .box{
+    top: 0px;
+    width: 225px;
+    height: 90%;
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+.box a img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    overflow: hidden;
+    /* background-color: blue; */
+}
+
+.box:hover{
+    /* border-width: 1px ;
+    border-color: rgb(134, 134, 134);;
+    border-style: solid; */
+    box-shadow: 1px 3px 8px 2px rgb(134, 134, 134);
+}
+.img-item > a {
+    height: 100% !important;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.box:hover .img-change{
+    position: relative;
+    display:block;
+    
+}
+
+
+
+
+.box-1{
+    margin-right: 23px;
+    /* position: relative; */
+}
+
+
+
+
+
+.img-item{
+    width: 100%;
+    height: 70%;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.img-change{
+    display:none;
+    position: relative;
+    top:-256px;
+    /* z-index: 1; */
+    
+
+}
+
+/* .box a:hover .img-change {
+    position: relative;
+    display:block;
+} */
+
+
+.info{
+    width: 100%;
+    height: 30%;
+    background-color: rgb(255, 255, 255);
+    /* padding-left: 10px; */
+    text-align: center;
+    overflow: hidden;
+    
+    /* top:300px; */
+    /* position:relative; */
+    /* top: 0px; */
+    /* z-index: 2; */
+}
+
+.info a{
+    text-decoration: none;
+    
+}
+
+
+
+
+
+.name-item {
+    /* background-color: beige; */
+    display: block;
+    font-family: sans-serif;
+    font-size: 0.9em;
+}
+
+.price{
+    display: block;
+    background-color: rgb(255, 255, 255);
+    font-family: sans-serif;
+   /*  text-align: center; */
+   margin: 0.5em 0 0.5em 0;
+   font-family: sans-serif;
+    font-size: 0.9em;
+}
+
+.info button[type="button"]{
+    box-sizing: border-box;
+    background-color: rgb(246, 71, 71);
+   /*  font-size:17px;
+    font-weight: 700; */
+   /*  border-radius:5px 5px 5px 5px; */
+    /* background-color:rgb(48, 84, 119); */
+    border: none;
+    outline: none;
+    padding:5px 10px 5px 10px;
+}
+
+.info button a{
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+}
+
+
+.info button:hover {
+    background-color:  rgb(210, 50, 50);
+}
+
+
+
+
+
+.box-2{
+    margin-right: 23px;
+}
+
+/* .box-2:hover .img-change{
+    position: relative;
+    display:block;
+} */
+
+
+.box-3{
+    margin-right: 23px;
+}
+
+/* .box-3:hover .img-change{
+    position: relative;
+    display:block;
+}
+ */
+
+.box-4{
+    margin-right: 23px;
+}
+
+/* .box-4:hover .img-change{
+    position: relative;
+    display:block;
+} */
+
+/* 
+.box-5:hover .img-change{
+    position: relative;
+    display:block;
+} */
+
+
+
+
+
+.row-2{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+
+
+
+
+
+.box-6{
+    margin-right: 23px;
+}
+
+
+.box-6:hover .img-change{
+    position: relative;
+    display:block;
+}
+
+.box-7{
+    margin-right: 23px;
+}
+
+.box-7:hover .img-change{
+    position: relative;
+    display:block;
+}
+
+.box-8{
+    margin-right: 23px;
+}
+
+.box-8:hover .img-change{
+    position: relative;
+    display:block;
+}
+
+
+.box-9{
+    margin-right: 23px;
+}
+
+.box-9:hover .img-change{
+    position: relative;
+    display:block;
+}
+
+
+.box-10:hover .img-change{
+    position: relative;
+    display:block;
+}
+
+
+
+/*----------------------------------container-2---------------------------*/
+
+#container-2{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+.row-3{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    margin-bottom: 200px;
+}
+
+
+
+
+
+.box-11{
+    margin-right: 23px;
+}
+
+
+/* .box-11:hover .img-change{
+    position: relative;
+    display:block;
+} */
+
+.box-12{
+    margin-right: 23px;
+}
+
+/* .box-12:hover .img-change{
+    position: relative;
+    display:block;
+} */
+
+.box-13{
+    margin-right: 23px;
+}
+
+/* .box-13:hover .img-change{
+    position: relative;
+    display:block;
+} */
+
+
+.box-14{
+    margin-right: 23px;
+}
+
+/* .box-14:hover .img-change{
+    position: relative;
+    display:block;
+} */
+
+
+/* .box-15:hover .img-change{
+    position: relative;
+    display:block;
+} */
